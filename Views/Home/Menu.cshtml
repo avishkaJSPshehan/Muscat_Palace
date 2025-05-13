@@ -1,1 +1,43 @@
-<h1>Menu Page</h1>
+@{
+    ViewData["Title"] = "Menu Page";
+}
+
+
+<div style="display: flex; justify-content: center; background-color: black; padding: 0px 0; border-top: 2px solid rgb(245, 176, 0); border-bottom: 2px solid rgb(245, 176, 0);">
+    <div style="flex: 1; text-align: center; border-right: 1px solid rgb(245, 176, 0);">
+        <a asp-controller="Home" asp-action="Index" style="color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">HOME</a>
+    </div>
+    <div style="flex: 1; text-align: center; border-right: 1px solid rgb(245, 176, 0);">
+        <a asp-controller="Home" asp-action="Menu" style="color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">MENU</a>
+    </div>
+    <div style="flex: 1; text-align: center; border-right: 1px solid rgb(245, 176, 0);">
+        <a asp-controller="Home" asp-action="AboutUs" style="color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">ABOUT US</a>
+    </div>
+    <div style="flex: 1; text-align: center;">
+        <a asp-controller="Home" asp-action="ContactUs" style="color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">CONTACT US</a>
+    </div>
+</div>
+
+<div style="width: 100%; overflow: hidden; height: 320px; position: relative;">
+    <img src="~/images/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg" alt="Food Image" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+</div>
+
+<div style="align-items: center; margin-top: 4%;">
+    <h1 style=" margin-left: 10%; color: rgb(245, 176, 0); font-style: italic;">MENU</h1>
+
+    <a asp-controller="Home" asp-action="Arabian" style="margin-left: 10%; color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">Arabian</a>
+    <a asp-controller="Home" asp-action="Indian" style="margin-left: 10%; color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">Indian</a>
+    <a asp-controller="Home" asp-action="Chinese" style="margin-left: 10%; color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">Chinese</a>
+    <a asp-controller="Home" asp-action="Refreshments" style="margin-left: 10%; color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">Refreshments</a> 
+</div>
+
+
+
+<style>
+    body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+</style>
