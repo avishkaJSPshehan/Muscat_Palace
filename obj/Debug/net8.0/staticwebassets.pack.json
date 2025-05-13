@@ -13,6 +13,70 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg",
+      "PackagePath": "staticwebassets\\images\\360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Biryani.jpg",
+      "PackagePath": "staticwebassets\\images\\Biryani.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Chowmein.jpg",
+      "PackagePath": "staticwebassets\\images\\Chowmein.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Fried Rice.jpg",
+      "PackagePath": "staticwebassets\\images\\Fried Rice.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Kebab.jpg",
+      "PackagePath": "staticwebassets\\images\\Kebab.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Kung pao chicken.jpg",
+      "PackagePath": "staticwebassets\\images\\Kung pao chicken.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Landing_image_Desktop.jpg",
+      "PackagePath": "staticwebassets\\images\\Landing_image_Desktop.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Majboos.jpg",
+      "PackagePath": "staticwebassets\\images\\Majboos.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Stir Fry Beef.jpg",
+      "PackagePath": "staticwebassets\\images\\Stir Fry Beef.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\al faham.jpg",
+      "PackagePath": "staticwebassets\\images\\al faham.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\butter chicken.jpg",
+      "PackagePath": "staticwebassets\\images\\butter chicken.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\cash-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\cash-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\fattoush.jpg",
+      "PackagePath": "staticwebassets\\images\\fattoush.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\mandi.jpg",
+      "PackagePath": "staticwebassets\\images\\mandi.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\paneer.jpg",
+      "PackagePath": "staticwebassets\\images\\paneer.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\unnamed.jpg",
+      "PackagePath": "staticwebassets\\images\\unnamed.jpg"
+    },
+    {
       "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
