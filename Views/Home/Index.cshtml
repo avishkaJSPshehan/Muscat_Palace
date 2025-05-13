@@ -20,7 +20,7 @@
     <div style="flex: 0 0 40%; color: rgb(245, 176, 0); text-align: left;">
         <h1 style="font-size: 3rem; margin: 0;">Muscat Palace</h1>
         <p style="font-size: 1.2rem;">Restaurant & Café in the Heart of Muscat</p>
-        <button style="padding: 10px 20px; font-size: 1rem; background: none; border: 1px solid rgb(245, 176, 0); color: rgb(245, 176, 0); border-radius: 30px; cursor: pointer; transition: background 0.3s, color 0.3s;">
+        <button style="padding: 10px 20px; font-size: 1rem; background: none; border: 1px solid rgb(245, 176, 0); color: rgb(245, 176, 0); border-radius: 30px; cursor: pointer; transition: background 0.3s, color 0.3s;" onclick="location.href='@Url.Action("SignUp", "Home")'">
             Join now!
         </button>
     </div>
@@ -32,7 +32,7 @@
 
 <div style="display: flex; justify-content: center; background-color: black; padding: 0px 0; border-top: 2px solid rgb(245, 176, 0); border-bottom: 2px solid rgb(245, 176, 0);">
     <div style="flex: 1; text-align: center; border-right: 1px solid rgb(245, 176, 0);">
-        <a href="#" style="color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">HOME</a>
+        <a asp-controller="Home" asp-action="Index" style="color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">HOME</a>
     </div>
     <div style="flex: 1; text-align: center; border-right: 1px solid rgb(245, 176, 0);">
         <a href="#" style="color: rgb(245, 176, 0); text-decoration: none; font-size: 1.2rem; display: block; padding: 10px 0;">MENU</a>
