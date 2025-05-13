@@ -18,12 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Programming Projects\Muscat_Palace
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Programming Projects/Muscat_Palace/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming Projects/Muscat_Palace/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Programming Projects/Muscat_Palace/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programming Projects/Muscat_Palace/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming Projects/Muscat_Palace/Views/Home/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programming Projects/Muscat_Palace/Views/Home/Privacy.cshtml]
