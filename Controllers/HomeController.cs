@@ -48,6 +48,26 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Arabian()
+    {
+        return View();
+    }
+
+    public IActionResult Indian()
+    {
+        return View();
+    }
+
+    public IActionResult Chinese()
+    {
+        return View();
+    }
+
+    public IActionResult Refreshments()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
