@@ -61,16 +61,32 @@
       "PackagePath": "staticwebassets\\images\\cash-removebg-preview.png"
     },
     {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\facebook.png"
+    },
+    {
       "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\fattoush.jpg",
       "PackagePath": "staticwebassets\\images\\fattoush.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
     },
     {
       "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\mandi.jpg",
       "PackagePath": "staticwebassets\\images\\mandi.jpg"
     },
     {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\multimedia.png",
+      "PackagePath": "staticwebassets\\images\\multimedia.png"
+    },
+    {
       "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\paneer.jpg",
       "PackagePath": "staticwebassets\\images\\paneer.jpg"
+    },
+    {
+      "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\twitter.png"
     },
     {
       "Id": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\unnamed.jpg",

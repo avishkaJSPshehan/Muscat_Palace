@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OZJZ6cKMf4tW5fqOX0wLQg58CZIHT5DqigtuRzZysu8=",
+  "Hash": "824a7oJXrNSJVcdKb0kiLkZqekrgStllZhxjT4GnH/M=",
   "Source": "Muscat_Palace",
   "BasePath": "_content/Muscat_Palace",
   "Mode": "Default",
@@ -207,6 +207,25 @@
       "OriginalItemSpec": "wwwroot\\images\\Chowmein.jpg"
     },
     {
+      "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\facebook.png",
+      "SourceId": "Muscat_Palace",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\",
+      "BasePath": "_content/Muscat_Palace",
+      "RelativePath": "images/facebook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\facebook.png"
+    },
+    {
       "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\fattoush.jpg",
       "SourceId": "Muscat_Palace",
       "SourceType": "Discovered",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Fried Rice.jpg"
+    },
+    {
+      "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\instagram.png",
+      "SourceId": "Muscat_Palace",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\",
+      "BasePath": "_content/Muscat_Palace",
+      "RelativePath": "images/instagram.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\instagram.png"
     },
     {
       "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\Kebab.jpg",
@@ -340,6 +378,25 @@
       "OriginalItemSpec": "wwwroot\\images\\mandi.jpg"
     },
     {
+      "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\multimedia.png",
+      "SourceId": "Muscat_Palace",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\",
+      "BasePath": "_content/Muscat_Palace",
+      "RelativePath": "images/multimedia.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\multimedia.png"
+    },
+    {
       "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\paneer.jpg",
       "SourceId": "Muscat_Palace",
       "SourceType": "Discovered",
@@ -376,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Stir Fry Beef.jpg"
+    },
+    {
+      "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\twitter.png",
+      "SourceId": "Muscat_Palace",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\",
+      "BasePath": "_content/Muscat_Palace",
+      "RelativePath": "images/twitter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\twitter.png"
     },
     {
       "Identity": "D:\\Programming Projects\\Muscat_Palace\\wwwroot\\images\\unnamed.jpg",
