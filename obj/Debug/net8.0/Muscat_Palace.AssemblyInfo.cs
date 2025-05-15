@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Muscat_Palace")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7df245e74fe1927121d15df3fde5bdf4e84d0141")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7317fec3cc672a87562192c05087d1f5c8ce93b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Muscat_Palace")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Muscat_Palace")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

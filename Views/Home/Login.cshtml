@@ -2,6 +2,7 @@
     ViewData["Title"] = "Login Page";
 }
 
+@model Muscat_Palace.Models.User
 
 <div style="display: flex; justify-content: center; background-color: black; padding: 0px 0; border-top: 2px solid rgb(245, 176, 0); border-bottom: 2px solid rgb(245, 176, 0);">
     <div style="flex: 1; text-align: center; border-right: 1px solid rgb(245, 176, 0);">
@@ -27,23 +28,11 @@
     <p style="text-align: center; margin: 5px 0 20px 0; color: rgb(245, 176, 0);">SIGN UP TO CONTINUE</p>
     
     <div style="display: flex; justify-content: center; align-items: center;">
-    <form style="font-family: Arial, sans-serif; text-align: center;">
-        <div style="margin-bottom: 15px;">
-            <label style="color: rgb(245, 176, 0);">NAME:</label>
-            <input type="text" 
-                   style="border: none;
-                          border-bottom: 1px solid rgb(245, 176, 0);
-                          width: 200px;
-                          margin-left: 5px;
-                          padding: 2px 0;
-                          background: transparent;
-                          outline: none;
-                          color: white;">
-        </div>
+    <form style="font-family: Arial, sans-serif; text-align: center;" asp-action="Login" asp-controller="Home" method="post">
 
         <div style="margin-bottom: 15px;">
             <label style="color: rgb(245, 176, 0);">EMAIL:</label>
-            <input type="email" 
+            <input type="email" asp-for="Email"
                    style="border: none;
                           border-bottom: 1px solid rgb(245, 176, 0);
                           width: 200px;
@@ -56,7 +45,7 @@
 
         <div style="margin-bottom: 20px;">
             <label style="color: rgb(245, 176, 0);">PASSWORD:</label>
-            <input type="password" 
+            <input type="password" asp-for="Password"
                    style="border: none;
                           border-bottom: 1px solid rgb(245, 176, 0);
                           width: 200px;
@@ -77,8 +66,8 @@
                        border-radius: 30px; 
                        cursor: pointer; 
                        transition: background 0.3s, color 0.3s;" 
-                onclick="location.href='@Url.Action()'">
-            SIGN UP
+                type="submit">
+            SIGN IN
         </button>
     </form>
 </div>
