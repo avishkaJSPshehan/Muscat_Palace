@@ -1,6 +1,8 @@
 ﻿@{
     ViewData["Title"] = "SignUp Page";
 }
+@model Muscat_Palace.Models.User
+
 
 
 <div style="display: flex; justify-content: center; background-color: black; padding: 0px 0; border-top: 2px solid rgb(245, 176, 0); border-bottom: 2px solid rgb(245, 176, 0);">
@@ -27,10 +29,10 @@
     <p style="text-align: center; margin: 5px 0 20px 0; color: rgb(245, 176, 0);">SIGN UP TO CONTINUE</p>
     
     <div style="display: flex; justify-content: center; align-items: center;">
-    <form style="font-family: Arial, sans-serif; text-align: center;">
-        <div style="margin-bottom: 15px;">
-            <label style="color: rgb(245, 176, 0);">NAME:</label>
-            <input type="text" 
+        <form style="font-family: Arial, sans-serif; text-align: center; align-items: center;" asp-action="SignUp" asp-controller="Home" method="post">
+            <div style="margin-bottom: 15px; display: flex; align-items: center;">
+                <label style="color: rgb(245, 176, 0);">NAME:</label>
+                <input asp-for="Name" class="form-control" type="text" 
                    style="border: none;
                           border-bottom: 1px solid rgb(245, 176, 0);
                           width: 200px;
@@ -38,12 +40,13 @@
                           padding: 2px 0;
                           background: transparent;
                           outline: none;
-                          color: white;">
-        </div>
+                          color: white;" />
+                <span asp-validation-for="Name" style="color: red;"></span>
+            </div>
 
-        <div style="margin-bottom: 15px;">
-            <label style="color: rgb(245, 176, 0);">EMAIL:</label>
-            <input type="email" 
+            <div style="margin-bottom: 15px; display: flex; align-items: center;">
+                <label style="color: rgb(245, 176, 0);">EMAIL:</label>
+                <input asp-for="Email" class="form-control" type="text" 
                    style="border: none;
                           border-bottom: 1px solid rgb(245, 176, 0);
                           width: 200px;
@@ -51,12 +54,13 @@
                           padding: 2px 0;
                           background: transparent;
                           outline: none;
-                          color: white;">
-        </div>
+                          color: white;" />
+                <span asp-validation-for="Email" style="color: red;"></span>
+            </div>
 
-        <div style="margin-bottom: 20px;">
-            <label style="color: rgb(245, 176, 0);">PASSWORD:</label>
-            <input type="password" 
+            <div style="margin-bottom: 20px;display: flex; align-items: center;">
+                <label style="color: rgb(245, 176, 0);">PASSWORD:</label>
+                <input asp-for="Password" type="password" class="form-control" type="text" 
                    style="border: none;
                           border-bottom: 1px solid rgb(245, 176, 0);
                           width: 200px;
@@ -64,23 +68,14 @@
                           padding: 2px 0;
                           background: transparent;
                           outline: none;
-                          color: white;">
-        </div>
-        
-        <button style="font-style: italic; 
-                       font-weight: bold; 
-                       padding: 10px 20px; 
-                       font-size: 1rem; 
-                       background-color: rgb(245, 176, 0); 
-                       border: 1px solid rgb(245, 176, 0); 
-                       color: rgb(0, 0, 0); 
-                       border-radius: 30px; 
-                       cursor: pointer; 
-                       transition: background 0.3s, color 0.3s;" 
-                onclick="location.href='@Url.Action("Login", "Home")'">
-            SIGN UP
-        </button>
-    </form>
+                          color: white;" />
+                <span asp-validation-for="Password" style="color: red;"></span>
+            </div>
+            
+            <button style="font-style: italic; font-weight: bold; padding: 10px 20px; font-size: 1rem; background-color: rgb(245, 176, 0); border: 1px solid rgb(245, 176, 0); color: rgb(0, 0, 0); border-radius: 30px; cursor: pointer;" type="submit">
+                SIGN UP
+            </button>
+        </form>
 </div>
 
 <div/>
